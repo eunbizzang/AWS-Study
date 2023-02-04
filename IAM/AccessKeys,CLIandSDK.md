@@ -28,4 +28,3 @@
   - Mobile SDKs(Android, iOS,,,)
   - IoT Device SDKs(Embedded C, Arduino,,,)
 - Example: AWS CLI is built on AWS SDK for Python
-- 

@@ -26,6 +26,8 @@
   - Condition: conditions for when this policy is in effect
     (optional)
 
+**A statement in an IAM Policy consists of Sid, Effect, Principal, Action, Resource, and Condition. Version is part of the IAM Policy itself, not the statement**
+
 AdministratorAccess
 ![image](https://user-images.githubusercontent.com/70651994/216773134-53f66abb-d393-4545-83ff-d9ddd97258e8.png)
 
