@@ -40,3 +40,26 @@ a data center loss
 RDS Multi AZ for example)
 - The high availability can be active (for
 horizontal scaling)
+
+High Availability & Scalability For EC2
+- Vertical Scaling: Increase instance size (= scale up / down)
+- From: t2.nano - 0.5G of RAM, 1 vCPU
+- To: u-12tb1.metal – 12.3 TB of RAM, 448 vCPUs
+- Horizontal Scaling: Increase number of instances (= scale out / in)
+- Auto Scaling Group
+- Load Balancer
+- High Availability: Run instances for the same application across multi AZ
+- Auto Scaling Group multi AZ
+- Load Balancer multi AZ
+
+
+Why use a load balancer? 
+- Spread load across multiple downstream instances 
+- Expose a single point of access (DNS) to your application 
+- Seamlessly handle failures of downstream instances 
+- Do regular health checks to your instances 
+- Provide SSL termination (HTTPS) for your websites 
+- Enforce stickiness with cookies 
+- High availability across zones 
+- Separate public traffic from private traffic
+
