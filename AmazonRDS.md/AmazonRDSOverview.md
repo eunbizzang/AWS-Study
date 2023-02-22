@@ -21,3 +21,17 @@ Advantage over using RDS versus deploying DB on EC2
   - Scaling capability (vertical and horizontal)
   - Storage backed by EBS (gp2 or io1)
 - BUT you can’t SSH into your instances
+
+#### Storage Auto Scaling 
+- Helps you increase storage on your RDS DB instance
+dynamically
+- When RDS detects you are running out of free database
+storage, it scales automatically
+- Avoid manually scaling your database storage 
+- You have to set Maximum Storage Threshold (maximum limit for DB storage) 
+- Automatically modify storage if:
+  - Free storage is less than 10% of allocated storage
+  - Low-storage lasts at least 5 minutes 
+  - 6 hours have passed since last modification 
+- Useful for applications with unpredictable workloads
+- Supports all RDS database engines (MariaDB, MySQL, PostgreSQL, SQL Server, Oracle)
