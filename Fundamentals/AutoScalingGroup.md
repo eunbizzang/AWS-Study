@@ -1,3 +1,9 @@
+https://docs.aws.amazon.com/ko_kr/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html
+https://docs.aws.amazon.com/autoscaling/ec2/userguide/auto-scaling-groups.html
+
+An Auto Scaling group contains a collection of EC2 instances that are treated as a logical grouping for the purposes of automatic scaling and management. 
+An Auto Scaling group also lets you use Amazon EC2 Auto Scaling features such as health check replacements and scaling policies.
+
 What’s an Auto Scaling Group?
 - In real-life, the load on your websites and application can change
 - In the cloud, you can create and get rid of servers very quickly

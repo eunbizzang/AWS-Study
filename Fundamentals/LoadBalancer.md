@@ -1,3 +1,5 @@
+https://docs.aws.amazon.com/ko_kr/autoscaling/ec2/userguide/autoscaling-load-balancer.html
+
 What is load balancing?
 - Load Balances are servers that forward traffic to multiple
 servers (e.g., EC2 instances) downstream
